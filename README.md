@@ -1,11 +1,10 @@
-AI Traffic Monitoring System
+**AI Traffic Monitoring System**
 
-Overview
+**Overview**
 
 This project implements an intelligent traffic monitoring system using Computer Vision. It detects vehicles, tracks them, counts entries, estimates congestion, and generates adaptive signal timing.
 
-Features
-
+**Features**
 YOLO-based vehicle detection
 ByteTrack tracking (no duplicate counting)
 Lane-wise vehicle entry counting
@@ -13,7 +12,8 @@ Real-time traffic density estimation
 Adaptive traffic signal timing
 Heatmap generation
 Interactive dashboard (Streamlit)
-Methodology
+
+**Methodology**
 
 Input traffic video
 Detect vehicles using YOLOv8
@@ -22,7 +22,8 @@ Count vehicles using line-crossing
 Estimate density using lane regions
 Generate heatmaps
 Display results in dashboard
-How to Run
+
+**How to Run**
 
 Step 1: Install dependencies
 
@@ -36,8 +37,7 @@ Step 3: Launch dashboard
 
 streamlit run dashboard.py
 
-Output
-
+**Output**
 CSV file with traffic statistics
 Heatmaps
 Interactive dashboard with graphs and metrics
@@ -49,6 +49,6 @@ F1 Score
 Accuracy
 Future Work
 
-Real-time deployment
+**Real-time deployment**
 Emergency vehicle prioritization
 Smart city integration
