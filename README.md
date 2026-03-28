@@ -47,8 +47,8 @@ Precision
 Recall
 F1 Score
 Accuracy
-Future Work
+**Future Work**
 
-**Real-time deployment**
+Real-time deployment
 Emergency vehicle prioritization
 Smart city integration
